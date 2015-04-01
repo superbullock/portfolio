@@ -38,12 +38,12 @@ body {
 h1 {
   margin: 0;
   font-size: 4em;
-  font-weight: 200;
+  font-weight: 400;
   color: #51524D;
 }
 
 .textGradient {
-  
+  font-weight: 200;
   background: -webkit-linear-gradient(#51524D, #eee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
