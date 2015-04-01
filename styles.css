@@ -22,7 +22,8 @@ body {
   background: url("http://i.imgur.com/RMdlUaf.jpg") no-repeat;
   background-size: auto 100%;
   background-position: left;
-  z-index: 0;}
+  z-index: 0;
+}
 
 .right:before {
   content: '';
@@ -37,11 +38,12 @@ body {
 h1 {
   margin: 0;
   font-size: 4em;
-  font-weight: 100;
+  font-weight: 300;
   color: #51524D;
 }
 
 .textGradient {
+  font-weight: 200;
   background: -webkit-linear-gradient(#51524D, #eee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -80,7 +82,7 @@ h1 {
 .footerIcon a {
   font-size: 2em;
   color: rgba(255, 255, 255, .7);
-  transition: color ease 300ms;
+  transition: all ease 500ms;
 }
 
 .footerIcon a:visited {
@@ -89,4 +91,5 @@ h1 {
 
 .footerIcon a:hover {
   color: rgba(255, 255, 255, 1);
+  text-shadow: 2px 2px 2px #333333;
 }
