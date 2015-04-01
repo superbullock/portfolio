@@ -9,19 +9,21 @@ body {
 
 body {
   background: #EDEBED;
+  position: relative;
 }
 
 .right {
-  height: 100%;
-  width: 50%;
   float: right;
+  width: 45%;
+  max-width: 500px;
+  height: 100%;
   position: relative;
   right: 0;
   top: 0;
   bottom: 0;
   background: url("http://i.imgur.com/RMdlUaf.jpg") no-repeat;
   background-size: auto 100%;
-  background-position: left;
+  background-position: right;
   z-index: 0;
 }
 
