@@ -81,7 +81,7 @@ h1 {
 .footerIcon a {
   font-size: 2em;
   color: rgba(255, 255, 255, .7);
-  transition: color ease 300ms;
+  transition: all ease 300ms;
 }
 
 .footerIcon a:visited {
@@ -90,6 +90,6 @@ h1 {
 
 .footerIcon a:hover {
   color: rgba(255, 255, 255, 1);
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 2px 2px 2px #000;
 }
 
