@@ -1,4 +1,3 @@
-
 angular.module("portfolio", ['ngRoute'])
   .config(function ($routeProvider) {
     $routeProvider
@@ -16,4 +15,3 @@ angular.module("portfolio", ['ngRoute'])
       })
   })
   .controller("mainCtrl", ["$scope", function ($scope) {}]);
-
