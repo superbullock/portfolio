@@ -1,4 +1,5 @@
-angular.module("portfolio", ['ngRoute', 'ngAnimate'])
+
+angular.module("portfolio", ['ngRoute'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -16,4 +17,3 @@ angular.module("portfolio", ['ngRoute', 'ngAnimate'])
   })
   .controller("mainCtrl", ["$scope", function ($scope) {}]);
 
-NG ANIMATED dan sucks
