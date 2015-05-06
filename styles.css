@@ -81,7 +81,7 @@ h1 {
 }
 
 .portfolioList {
-  margin-top: 500px;
+  margin-top: 300px;
   position: relative;
 }
 
@@ -106,6 +106,16 @@ h1 {
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 2px 2px 2px #51524D;
 }
+
+.view {
+  margin-top: 100px;
+}
+
+.resume {
+  white-space: pre-wrap;
+}
+
+.projects {}
 
 .footer {
   position: fixed;
