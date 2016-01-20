@@ -1,0 +1,306 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0 0 40px 0;
+  padding: 0;
+  background: #DCDCDC;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #3A587F;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all ease 500ms;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: all ease 500ms;
+}
+
+a:hover {
+  text-shadow: 2px 2px 14px black;
+}
+
+input {
+  border-radius: 4px 4px 4px;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: #606E7F;
+  color: #C0DBFF;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px 2px #5D5F60;
+  z-index: 10;
+}
+
+header h2 {
+  margin: auto;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.menuWide {
+  margin: auto;
+  align-content: space-between;
+}
+
+.menuWide li {
+  padding: 0 10px;
+  display: inline;
+}
+
+textarea {
+  width: 80%;
+  height: 80px;
+  margin: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 12px;
+  box-sizing: border-box;
+  background: #77828F;
+  color: #C0DBFF;
+}
+
+footer p {
+  float: left;
+}
+
+footer li {
+  float: right;
+  padding: 0 5px;
+}
+
+.active {
+  color: #FF998D;
+}
+
+.content {
+  margin-top: 80px;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.contactForm {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.contactForm p {
+  clear: both;
+  padding: 20px;
+}
+
+.contactForm h2 {
+  font-weight: 100;
+}
+
+.contactInput {
+  margin: auto;
+  width: 50%;
+  height: 80px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactItem {
+  margin: auto;
+  text-align: left;
+}
+
+.contactInput input {
+  padding: 15px;
+  width: 80%;
+  font-size: 15px;
+}
+
+.contactForm select {
+  border: 0;
+  font-size: 12px;
+  color: inherit;
+}
+
+.contactRadio {
+  margin: 5px 5px;
+}
+
+.contactForm button {
+  font-size: 20px;
+  padding: 15px 25px;
+  background: #FF998D;
+  border: 4px white;
+  box-shadow: 2px 1px 4px;
+}
+
+.homeContent {
+  margin: 0;
+  padding: 80px 0 40px 0;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  background-image: url(https://i.ytimg.com/vi/3Z2upFUdrhU/maxresdefault.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.jumbotron p {
+  position: relative;
+  bottom: -390px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.stretch {
+  width: 100%;
+  height: 250px;
+  background: #272822;
+  color: #C0DBFF;
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.stretchAlt {
+  background: inherit;
+  color: inherit;
+}
+
+.stretchText {
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.principal {
+  width: 50%;
+  margin: auto;
+}
+
+.articleImg {
+  height: 250px;
+  max-width: 450px;
+}
+
+.review {
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  background: #DCDCDC;
+  color: #3A587F;
+  height: 220px;
+  border-radius: 15px 15px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.thankYou {
+  text-align: center;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.thankYou p {
+  width: 70%;
+  margin: auto;
+}
+
+.thankYou img {
+  margin: 40px;
+}
+
+.menuNarrow {
+  display: none;
+}
+
+.galleryCard {
+  margin: auto;
+  background: white;
+  width: 32%;
+  min-width: 300px;
+  height: 300px;
+  box-shadow: 3px 4px 5px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+}
+
+figure {
+  margin: auto;
+}
+
+.galleryCard img {
+  width: 450px;
+  height: 275px;
+  box-shadow: 1px 1px 3px;
+}
+
+@media (max-width: 730px) {
+  .menuWide {
+    display: none;
+  }
+  .contactInput {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+  footer {
+    font-size: 8px;
+  }
+  .stretch {
+    flex-direction: column;
+    height: auto;
+  }
+  .principal {
+    margin: auto;
+    width: auto;
+  }
+  .review {
+    display: none;
+  }
+  .menuNarrow {
+    display: block;
+    text-align: center;
+    padding: 0 0 30px 0;
+    background: #272822
+  }
+  .menuNarrow button {
+    color: #C0DBFF;
+    background: #606E7F;
+    width: 30%;
+    border: none;
+    border-radius: 50px;
+  }
+}
